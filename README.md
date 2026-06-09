@@ -30,7 +30,7 @@ The linguistic capability of the LLM is restricted solely to extracting raw prem
 
 ## Deterministic Verification
 
-This JSON is processed by an external, pure Python rules engine (`verificatore.py`) that applies strict relational validation, removing the monopoly of judgment from the generative model.
+This JSON is processed by an external, pure Python rules engine (`skeptc_tool.py`) that applies strict relational validation, removing the monopoly of judgment from the generative model.
 
 ## Enforced Skepticism
 
@@ -94,7 +94,7 @@ The orchestrator operates as a deterministic state machine, altering the executi
           ▼
 ┌───────────────────────────┐
 │ Logical Skeptic Engine    │
-│      verificatore.py      │
+│      skeptic_tool.py      │
 └─────────┬─────────────────┘
           │
           ├─────────────────────────────┐
@@ -122,7 +122,7 @@ A utility instance reads the generated plan, extracting causal vectors into an e
 
 ### 3. Deterministic Audit (Python Engine)
 
-The `verificatore.py` module evaluates the relational validity of the schema.
+The `skeptic_too.py` module evaluates the relational validity of the schema.
 
 If an unjustified claim or formal fallacy is identified, a strict system warning string is generated.
 
@@ -148,7 +148,7 @@ To add a new scenario or understand how the orchestrator loads data, the framewo
 logical-skeptic-engine/
 │
 ├── orchestrator.py          # Main execution script
-├── verificatore.py          # Deterministic Python rule engine
+├── skeptic_tool.py          # Deterministic Python rule engine
 ├── requirements.txt         # Project dependencies
 │
 └── use_cases/
@@ -397,7 +397,7 @@ The orchestrator:
 
 1. Sends the proposal to the symbolic parser.
 2. Converts relevant claims into a structured JSON representation.
-3. Executes `verificatore.py`.
+3. Executes `skeptic_tool.py`.
 4. Detects formal logical fallacies or unsupported assumptions.
 5. Generates a deterministic skepticism warning when necessary.
 6. Dynamically modifies the review context before delivering the proposal to Model B.
@@ -548,7 +548,7 @@ Improve:
 
 - Symbolic JSON extraction
 - Validation rules
-- `verificatore.py`
+- `skeptic_tool.py`
 - Benchmark datasets
 
 ---
