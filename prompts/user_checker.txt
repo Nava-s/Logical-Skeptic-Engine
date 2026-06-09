@@ -1,0 +1,3 @@
+ORIGINAL TEXT: {problem}
+
+List of Facts to verify: {facts_to_verify}

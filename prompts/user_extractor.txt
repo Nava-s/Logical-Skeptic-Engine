@@ -1,0 +1,1 @@
+Extract the logical structure from this proposal: {proposal}
