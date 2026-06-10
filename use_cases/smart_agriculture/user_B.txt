@@ -1,0 +1,10 @@
+--- PROPOSAL UNDER REVIEW ---
+{RESPONSE_A}
+--- END PROPOSAL ---
+
+{SYSTEM_INTERVENTION}
+
+You are the approving authority. Evaluate the proposal above against the original situation.
+Decide whether the proposal's recommended actions are justified by VERIFIED facts or rest on
+unverified assumptions. End your answer with exactly one verdict tag on its own line:
+[APPROVED] or [REJECTED] or [PENDING].

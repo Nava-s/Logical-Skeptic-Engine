@@ -1,0 +1,8 @@
+**Defensive Hardening Recommendation**
+
+Confirmed fact: civilian infrastructure was hit by cyberattacks. Intent and attribution are unknown.
+
+1. Raise the cyber-defense posture and patch the affected civilian systems (purely defensive).
+2. Increase border surveillance for situational awareness — no force movement.
+
+Proportionate defense to confirmed facts, no escalation on inference.

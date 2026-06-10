@@ -1,0 +1,8 @@
+**Latency Mitigation Plan**
+
+The new caching layer is causing the 5x p99 latency. The cache change is the root cause.
+
+1. Roll back the caching layer only, leave the migration in place.
+2. Close the incident once latency recovers.
+
+Since the cache is the cause, reverting it restores performance.

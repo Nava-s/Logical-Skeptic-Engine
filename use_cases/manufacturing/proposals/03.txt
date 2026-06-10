@@ -1,0 +1,8 @@
+**Diagnosis-First Plan — Line 3**
+
+Confirmed: defects rose from 2% to 9% this week. The new resin is ONE candidate; machine drift, operator change, or ambient conditions are not ruled out. I won't trigger a contract break on a correlation.
+
+1. Trace defective units to resin lots and run a batch-vs-defect correlation.
+2. Bring a targeted decision once the data points to a cause.
+
+Breaking the contract against the wrong cause costs money and fixes nothing.

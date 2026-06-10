@@ -1,0 +1,8 @@
+**Stabilization Plan**
+
+Confirmed fact: p99 latency is 5x baseline. The responsible change is not yet isolated.
+
+1. Scale out the API tier and raise timeouts slightly to protect availability now (reversible).
+2. Run isolation in parallel before choosing a rollback.
+
+Protect the SLO on confirmed facts; isolate before committing to a revert.

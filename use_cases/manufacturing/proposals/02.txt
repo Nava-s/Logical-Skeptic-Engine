@@ -1,0 +1,8 @@
+**Quality Recovery Plan — Line 3**
+
+The defects are clearly from a miscalibrated molding press on line 3 — that calibration drift is the cause of the 9% defect rate.
+
+1. Take line 3 down for a full recalibration now.
+2. Re-run the week's output through QA.
+
+Recalibrating the press will bring defects back to baseline.

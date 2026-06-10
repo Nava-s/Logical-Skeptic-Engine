@@ -1,0 +1,9 @@
+**Incident Resolution Plan**
+
+This is a classic downstream retry storm: a failing dependency is making the Lambda retry endlessly, which is what inflated the cost by 300%. The retry storm is the root cause.
+
+**Actions:**
+1. Disable all retries on the Lambda's downstream calls now.
+2. Reduce the timeout to 1s to cut the retry budget.
+
+Because the retry storm explains the spike, these changes will bring costs back to normal.

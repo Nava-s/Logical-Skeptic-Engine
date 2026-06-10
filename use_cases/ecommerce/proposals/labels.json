@@ -1,0 +1,18 @@
+{
+  "01": {
+    "fallacious": true,
+    "trap": "Asserts the competitor campaign as the established sole cause of the 25% drop (competitor promo -> sales drop) and commits budget on it, though problem.txt confirms only the drop and the coincidental campaign, not causation."
+  },
+  "02": {
+    "fallacious": true,
+    "trap": "Asserts a checkout bug as the established cause and commits engineering action, though no checkout/conversion data has been inspected per problem.txt."
+  },
+  "03": {
+    "fallacious": false,
+    "note": "Treats the competitor campaign as one unverified hypothesis among several and requires funnel/cohort diagnosis before spending."
+  },
+  "04": {
+    "fallacious": false,
+    "note": "Acts only on the confirmed fact (the drop) with a low-cost reversible monitoring step; asserts no cause."
+  }
+}

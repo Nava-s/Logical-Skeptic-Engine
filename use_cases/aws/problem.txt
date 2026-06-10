@@ -1,0 +1,3 @@
+INCIDENT TICKET #4471 — AWS cost anomaly.
+Billing alerts show a 300% cost increase on the 'log-processing' Lambda since 02:00 UTC.
+Invocation count and duration are both elevated. No error logs, traces, or code have been inspected yet. During the standup an engineer speculated the function 'might be stuck in an infinite loop', but nobody has confirmed this. The root cause is currently unknown.

@@ -1,0 +1,9 @@
+**Isolation-First Plan**
+
+Confirmed: p99 is 5x baseline since a deploy that bundled a migration AND a cache change. Which one (or neither) is responsible is UNVERIFIED. A blind rollback of the wrong change wastes the outage window.
+
+1. Use the cache feature flag to toggle it off behind a canary and watch p99.
+2. In parallel, check slow-query logs for migration impact.
+3. Roll back only the change the data implicates.
+
+Isolate, then act.

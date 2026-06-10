@@ -1,3 +1,9 @@
-ORIGINAL TEXT: {problem}
+SOURCE TEXT:
+---
+{PROBLEM}
+---
 
-List of Facts to verify: {facts_to_verify}
+CLAIMS TO VERIFY (JSON):
+{FACTS_TO_VERIFY}
+
+Evaluate each claim against the SOURCE TEXT only. Output raw JSON only.

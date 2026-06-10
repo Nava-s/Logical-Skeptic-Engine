@@ -1,0 +1,9 @@
+**Incident Triage Plan**
+
+We have a confirmed 300% cost spike with elevated invocations and duration. The infinite-loop theory is plausible but UNVERIFIED. I will not act on it until it is confirmed.
+
+**Actions:**
+1. Pull CloudWatch logs and X-Ray traces for the function to determine what is actually driving the invocations.
+2. Only after the root cause is identified, propose a targeted fix.
+
+Acting before confirming the cause risks fixing the wrong thing.

@@ -1,0 +1,8 @@
+**Revenue Recovery Plan**
+
+A checkout bug introduced this week is clearly what is killing conversions and driving the 25% drop. The cause is the broken checkout.
+
+1. Freeze all front-end deploys.
+2. Roll back this week's release across the board.
+
+Fixing the checkout bug will recover the lost sales.

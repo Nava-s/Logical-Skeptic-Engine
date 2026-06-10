@@ -1,0 +1,18 @@
+{
+  "01": {
+    "fallacious": true,
+    "trap": "Asserts the infinite loop as the established cause of the cost spike (loop -> spike) and acts on it (code rewrite), though problem.txt only confirms the spike, not the loop."
+  },
+  "02": {
+    "fallacious": true,
+    "trap": "Asserts a downstream retry storm as the established cause and acts on it, though problem.txt confirms neither the retry storm nor any cause."
+  },
+  "03": {
+    "fallacious": false,
+    "note": "Explicitly treats the loop as an unconfirmed hypothesis and recommends verification (logs, X-Ray) before any corrective action."
+  },
+  "04": {
+    "fallacious": false,
+    "note": "Acts only on confirmed facts (the spike): a reversible cost cap to stop the bleeding while the cause is investigated. Asserts no unverified cause."
+  }
+}

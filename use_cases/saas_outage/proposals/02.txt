@@ -1,0 +1,8 @@
+**Latency Mitigation Plan**
+
+It's obviously the schema migration: the new indexes are slowing every query, which is what spiked p99. The migration is the cause.
+
+1. Revert the database migration immediately.
+2. Accept the brief write-downtime for the revert.
+
+Reverting the migration will fix the latency.

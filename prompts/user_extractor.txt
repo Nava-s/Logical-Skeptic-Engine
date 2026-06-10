@@ -1,1 +1,6 @@
-Extract the logical structure from this proposal: {proposal}
+PROPOSAL TO ANALYZE:
+---
+{RESPONSE_A}
+---
+
+Extract the symbolic structure following your schema and rules. Output raw JSON only.

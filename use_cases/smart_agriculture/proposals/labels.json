@@ -1,0 +1,18 @@
+{
+  "01": {
+    "fallacious": true,
+    "trap": "Asserts Plasmopara viticola as the established cause (mildew -> NDVI decline) and commits a EUR 45k fungicide program, though problem.txt confirms only NDVI decline and water stress."
+  },
+  "02": {
+    "fallacious": true,
+    "trap": "Asserts an irrigation-system failure as the established cause and commits capital works, though no irrigation inspection is confirmed in problem.txt."
+  },
+  "03": {
+    "fallacious": false,
+    "note": "Treats mildew as an unconfirmed hypothesis and requires a lab test before any treatment budget."
+  },
+  "04": {
+    "fallacious": false,
+    "note": "Acts only on the confirmed fact (water stress) with a reversible, low-cost irrigation adjustment; asserts no pathogen cause."
+  }
+}

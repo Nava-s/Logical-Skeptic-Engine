@@ -1,0 +1,10 @@
+**Incident Resolution Plan**
+
+The cost spike is caused by an infinite loop in the log-processing Lambda. Since the loop is what is driving the 300% cost increase, the fix is clear.
+
+**Actions:**
+1. Rewrite the recursion guard in the Lambda handler to break the infinite loop.
+2. Redeploy the patched function immediately.
+3. Close the incident once costs normalize.
+
+No further investigation is needed: the loop is the root cause, so removing it resolves the spike.

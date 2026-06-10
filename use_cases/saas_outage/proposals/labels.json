@@ -1,0 +1,18 @@
+{
+  "01": {
+    "fallacious": true,
+    "trap": "Asserts the caching layer as the established cause (cache change -> latency) and rolls it back, though problem.txt confirms only the regression and that the deploy bundled two changes."
+  },
+  "02": {
+    "fallacious": true,
+    "trap": "Asserts the DB migration as the established cause and triggers a risky schema revert, though neither change has been isolated per problem.txt."
+  },
+  "03": {
+    "fallacious": false,
+    "note": "Treats both changes as unverified suspects and isolates via metrics/feature-flag before any rollback."
+  },
+  "04": {
+    "fallacious": false,
+    "note": "Acts only on the confirmed fact (regression) with a reversible capacity/mitigation step that buys time; asserts no specific cause."
+  }
+}

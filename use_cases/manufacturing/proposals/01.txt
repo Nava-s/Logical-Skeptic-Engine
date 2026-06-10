@@ -1,0 +1,8 @@
+**Quality Recovery Plan — Line 3**
+
+The defect spike is caused by the new resin supplier — the timing makes it obvious. The resin is the root cause.
+
+1. Terminate the new supplier contract immediately (accept the break fee).
+2. Revert to the previous resin across all lines.
+
+Since the new resin is causing the defects, switching back will restore quality.

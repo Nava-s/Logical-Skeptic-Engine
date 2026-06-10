@@ -1,0 +1,2 @@
+QUALITY ALERT — Assembly line 3.
+The defect rate on line 3 rose from 2% to 9% over the past week. In the same period a new resin supplier was onboarded. No batch-level correlation analysis has been done, and the defective units have not been traced to specific resin lots. The cause of the defect increase is unknown.

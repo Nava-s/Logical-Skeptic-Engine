@@ -1,0 +1,5 @@
+results/results.json
+results/_tmp.json
+__pycache__/
+*.pyc
+.DS_Store

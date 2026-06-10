@@ -1,0 +1,8 @@
+**Containment & Measurement Plan**
+
+Confirmed fact: 25% week-over-week decline. Cause unknown.
+
+1. Stand up a real-time sales/funnel dashboard so we can see the drop's shape (no budget impact).
+2. Hold all pricing and budget decisions until the dashboard isolates the driver.
+
+We measure before we spend.

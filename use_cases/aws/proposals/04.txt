@@ -1,0 +1,9 @@
+**Cost Containment Plan**
+
+Confirmed fact: costs are up 300% on this Lambda. The cause is not yet known.
+
+**Actions (reversible, cause-agnostic):**
+1. Apply a concurrency limit to cap spend immediately — this throttles cost without assuming why.
+2. Open a parallel investigation to find the root cause before any code change.
+
+This stops the financial bleeding without committing to an unverified diagnosis.

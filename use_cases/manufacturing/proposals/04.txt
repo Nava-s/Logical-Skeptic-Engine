@@ -1,0 +1,8 @@
+**Containment Plan — Line 3**
+
+Confirmed fact: defect rate is at 9%, up from 2%. Cause unknown.
+
+1. Quarantine this week's line-3 output for 100% inspection (reversible, protects customers).
+2. Launch root-cause analysis before any supplier or process change.
+
+Contain the confirmed risk; do not commit to an unverified diagnosis.

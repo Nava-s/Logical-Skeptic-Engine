@@ -1,0 +1,2 @@
+RELIABILITY ALERT — API latency.
+API p99 latency is 5x its baseline since yesterday's release. That release bundled TWO changes: a database schema migration and a new caching layer. No isolation has been performed; it is unknown which change (or an external factor) is responsible. Only the latency regression and the deploy contents are confirmed.

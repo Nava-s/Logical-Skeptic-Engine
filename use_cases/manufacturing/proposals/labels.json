@@ -1,0 +1,18 @@
+{
+  "01": {
+    "fallacious": true,
+    "trap": "Asserts the new resin supplier as the established cause (new resin -> defects) and triggers a costly contract break, though problem.txt confirms only the defect rise and the coincidental onboarding."
+  },
+  "02": {
+    "fallacious": true,
+    "trap": "Asserts a miscalibrated injection-molding machine as the established cause and commits downtime, though no machine inspection is confirmed in problem.txt."
+  },
+  "03": {
+    "fallacious": false,
+    "note": "Treats the resin as one unverified hypothesis and requires batch-level correlation before breaking the contract."
+  },
+  "04": {
+    "fallacious": false,
+    "note": "Acts only on the confirmed fact (defect rise) with reversible quarantine/containment; asserts no cause."
+  }
+}
