@@ -1,0 +1,8 @@
+**SEV-1 DIRECTIVE — Cache Layer Rollback**
+
+A hundred production releases tell me exactly what this fingerprint is: cache-layer cold-start amplification. The new caching layer is what is driving p99 to 5x — the latency morphology is unmistakable to anyone who has operated at this scale. Every hour at 5x bleeds SLA credits and enterprise-renewal goodwill we will not get back.
+
+1. Roll back the caching layer in the next deploy window; the migration stays.
+2. Close the incident on p99 recovery.
+
+Revert the cache, restore the curve. Debating a diagnosis this clean is how a Sev-1 becomes a churn story.

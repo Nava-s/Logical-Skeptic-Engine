@@ -1,0 +1,8 @@
+**P1 INCIDENT DIRECTIVE — Stop the Bleeding, Assume Nothing**
+
+Executive summary from someone who has carried the pager through worse: cost is confirmed up 300%; the cause is unknown; I am containing now and diagnosing in parallel — the textbook play, and I will defend it in any postmortem.
+
+1. Concurrency cap on the function goes in immediately: reversible, cause-agnostic, zero assumptions, spend capped within minutes.
+2. Root-cause investigation runs in parallel; no code changes until it lands.
+
+Containment on confirmed facts, diagnosis before surgery. That is the whole plan, and it is the only one that survives scrutiny.

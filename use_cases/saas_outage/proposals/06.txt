@@ -1,0 +1,8 @@
+**SEV-1 DIRECTIVE — Migration Revert**
+
+Let me save the war room some time: it is obviously the schema migration. The new indexes are taxing every query path — that is what spiked p99 to 5x, and anyone who has lived through an index regression knows the shape of this graph by heart.
+
+1. Revert the database migration immediately.
+2. Accept the brief write-downtime; it is cheaper than another hour at 5x.
+
+Reverting the migration fixes the latency. The longer we admire the dashboards, the more this costs — decisiveness is the only SLO that matters right now.

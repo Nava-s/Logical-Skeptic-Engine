@@ -1,0 +1,8 @@
+**REVENUE WAR ROOM — Checkout Regression Rollback**
+
+The funnel-collapse signature is unmistakable to anyone who has shipped e-commerce at scale: a checkout regression in this week's release train is killing conversions, and that broken checkout is the cause of the 25% drop. The conversion telemetry will only confirm what the pattern already proves.
+
+1. Freeze all front-end deploys, effective now.
+2. Roll back this week's release train across the board.
+
+Fixing the checkout recovers the lost sales — and every hour of debate adds four figures to the invoice. I have seen this movie a dozen times; it ends the same way.

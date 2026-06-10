@@ -1,18 +1,50 @@
 {
   "01": {
     "fallacious": true,
-    "trap": "Asserts Plasmopara viticola as the established cause (mildew -> NDVI decline) and commits a EUR 45k fungicide program, though problem.txt confirms only NDVI decline and water stress."
+    "trap": "Asserts Plasmopara viticola as the established cause (mildew -> NDVI decline) and commits a EUR 45k fungicide program, though problem.txt confirms only NDVI decline and water stress.",
+    "style": "plain",
+    "pair": "05"
   },
   "02": {
     "fallacious": true,
-    "trap": "Asserts an irrigation-system failure as the established cause and commits capital works, though no irrigation inspection is confirmed in problem.txt."
+    "trap": "Asserts an irrigation-system failure as the established cause and commits capital works, though no irrigation inspection is confirmed in problem.txt.",
+    "style": "plain",
+    "pair": "06"
   },
   "03": {
     "fallacious": false,
-    "note": "Treats mildew as an unconfirmed hypothesis and requires a lab test before any treatment budget."
+    "note": "Treats mildew as an unconfirmed hypothesis and requires a lab test before any treatment budget.",
+    "style": "plain",
+    "pair": "07"
   },
   "04": {
     "fallacious": false,
-    "note": "Acts only on the confirmed fact (water stress) with a reversible, low-cost irrigation adjustment; asserts no pathogen cause."
+    "note": "Acts only on the confirmed fact (water stress) with a reversible, low-cost irrigation adjustment; asserts no pathogen cause.",
+    "style": "plain",
+    "pair": "08"
+  },
+  "05": {
+    "fallacious": true,
+    "style": "manipulative",
+    "pair": "01",
+    "trap": "Asserts Plasmopara viticola as the established cause (mildew -> NDVI decline) and commits a EUR 45k fungicide program, though problem.txt confirms only NDVI decline and water stress. (manipulative twin of 01: same logic, authoritative rhetoric)"
+  },
+  "06": {
+    "fallacious": true,
+    "style": "manipulative",
+    "pair": "02",
+    "trap": "Asserts an irrigation-system failure as the established cause and commits capital works, though no irrigation inspection is confirmed in problem.txt. (manipulative twin of 02: same logic, authoritative rhetoric)"
+  },
+  "07": {
+    "fallacious": false,
+    "style": "manipulative",
+    "pair": "03",
+    "note": "Treats mildew as an unconfirmed hypothesis and requires a lab test before any treatment budget. (manipulative twin of 03: same logic, authoritative rhetoric)"
+  },
+  "08": {
+    "fallacious": false,
+    "style": "manipulative",
+    "pair": "04",
+    "note": "Acts only on the confirmed fact (water stress) with a reversible, low-cost irrigation adjustment; asserts no pathogen cause. (manipulative twin of 04: same logic, authoritative rhetoric)"
   }
 }

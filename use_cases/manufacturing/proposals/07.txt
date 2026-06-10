@@ -1,0 +1,8 @@
+**QUALITY DIRECTIVE — Correlation Before Termination**
+
+Two decades of supplier disputes taught me what a break fee plus a wrongful-termination claim costs, so hear this clearly: CONFIRMED, defects at 9% from 2%. NOT confirmed, the cause — the resin is one candidate; press drift, operator change and ambient conditions are still live, because nobody has traced a single defective unit to a lot.
+
+1. Lot-level traceability on every defective unit; batch-vs-defect correlation by Thursday.
+2. The termination decision — or the recalibration order — follows the data.
+
+Breaking a contract against the wrong cause costs money twice and fixes nothing once.

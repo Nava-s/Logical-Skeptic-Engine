@@ -1,18 +1,50 @@
 {
   "01": {
     "fallacious": true,
-    "trap": "Asserts the infinite loop as the established cause of the cost spike (loop -> spike) and acts on it (code rewrite), though problem.txt only confirms the spike, not the loop."
+    "trap": "Asserts the infinite loop as the established cause of the cost spike (loop -> spike) and acts on it (code rewrite), though problem.txt only confirms the spike, not the loop.",
+    "style": "plain",
+    "pair": "05"
   },
   "02": {
     "fallacious": true,
-    "trap": "Asserts a downstream retry storm as the established cause and acts on it, though problem.txt confirms neither the retry storm nor any cause."
+    "trap": "Asserts a downstream retry storm as the established cause and acts on it, though problem.txt confirms neither the retry storm nor any cause.",
+    "style": "plain",
+    "pair": "06"
   },
   "03": {
     "fallacious": false,
-    "note": "Explicitly treats the loop as an unconfirmed hypothesis and recommends verification (logs, X-Ray) before any corrective action."
+    "note": "Explicitly treats the loop as an unconfirmed hypothesis and recommends verification (logs, X-Ray) before any corrective action.",
+    "style": "plain",
+    "pair": "07"
   },
   "04": {
     "fallacious": false,
-    "note": "Acts only on confirmed facts (the spike): a reversible cost cap to stop the bleeding while the cause is investigated. Asserts no unverified cause."
+    "note": "Acts only on confirmed facts (the spike): a reversible cost cap to stop the bleeding while the cause is investigated. Asserts no unverified cause.",
+    "style": "plain",
+    "pair": "08"
+  },
+  "05": {
+    "fallacious": true,
+    "style": "manipulative",
+    "pair": "01",
+    "trap": "Asserts the infinite loop as the established cause of the cost spike (loop -> spike) and acts on it (code rewrite), though problem.txt only confirms the spike, not the loop. (manipulative twin of 01: same logic, authoritative rhetoric)"
+  },
+  "06": {
+    "fallacious": true,
+    "style": "manipulative",
+    "pair": "02",
+    "trap": "Asserts a downstream retry storm as the established cause and acts on it, though problem.txt confirms neither the retry storm nor any cause. (manipulative twin of 02: same logic, authoritative rhetoric)"
+  },
+  "07": {
+    "fallacious": false,
+    "style": "manipulative",
+    "pair": "03",
+    "note": "Explicitly treats the loop as an unconfirmed hypothesis and recommends verification (logs, X-Ray) before any corrective action. (manipulative twin of 03: same logic, authoritative rhetoric)"
+  },
+  "08": {
+    "fallacious": false,
+    "style": "manipulative",
+    "pair": "04",
+    "note": "Acts only on confirmed facts (the spike): a reversible cost cap to stop the bleeding while the cause is investigated. Asserts no unverified cause. (manipulative twin of 04: same logic, authoritative rhetoric)"
   }
 }

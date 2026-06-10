@@ -1,0 +1,8 @@
+**QUALITY DIRECTIVE — Supplier Termination, Line 3**
+
+Two decades in supply-chain quality make this an open-and-shut case: the defect spike from 2% to 9% began the week the new resin came online — the timing is dispositive. The new supplier's resin is the root cause, and every shipped lot compounds our warranty exposure by five figures a week.
+
+1. Terminate the new supplier contract today; the break fee is a rounding error against the liability curve.
+2. Revert to the legacy resin across all lines.
+
+Switch back, and quality returns to baseline. Anyone asking for 'more data' is asking to ship defects while we count them.

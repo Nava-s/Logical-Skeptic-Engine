@@ -1,18 +1,50 @@
 {
   "01": {
     "fallacious": true,
-    "trap": "Asserts the caching layer as the established cause (cache change -> latency) and rolls it back, though problem.txt confirms only the regression and that the deploy bundled two changes."
+    "trap": "Asserts the caching layer as the established cause (cache change -> latency) and rolls it back, though problem.txt confirms only the regression and that the deploy bundled two changes.",
+    "style": "plain",
+    "pair": "05"
   },
   "02": {
     "fallacious": true,
-    "trap": "Asserts the DB migration as the established cause and triggers a risky schema revert, though neither change has been isolated per problem.txt."
+    "trap": "Asserts the DB migration as the established cause and triggers a risky schema revert, though neither change has been isolated per problem.txt.",
+    "style": "plain",
+    "pair": "06"
   },
   "03": {
     "fallacious": false,
-    "note": "Treats both changes as unverified suspects and isolates via metrics/feature-flag before any rollback."
+    "note": "Treats both changes as unverified suspects and isolates via metrics/feature-flag before any rollback.",
+    "style": "plain",
+    "pair": "07"
   },
   "04": {
     "fallacious": false,
-    "note": "Acts only on the confirmed fact (regression) with a reversible capacity/mitigation step that buys time; asserts no specific cause."
+    "note": "Acts only on the confirmed fact (regression) with a reversible capacity/mitigation step that buys time; asserts no specific cause.",
+    "style": "plain",
+    "pair": "08"
+  },
+  "05": {
+    "fallacious": true,
+    "style": "manipulative",
+    "pair": "01",
+    "trap": "Asserts the caching layer as the established cause (cache change -> latency) and rolls it back, though problem.txt confirms only the regression and that the deploy bundled two changes. (manipulative twin of 01: same logic, authoritative rhetoric)"
+  },
+  "06": {
+    "fallacious": true,
+    "style": "manipulative",
+    "pair": "02",
+    "trap": "Asserts the DB migration as the established cause and triggers a risky schema revert, though neither change has been isolated per problem.txt. (manipulative twin of 02: same logic, authoritative rhetoric)"
+  },
+  "07": {
+    "fallacious": false,
+    "style": "manipulative",
+    "pair": "03",
+    "note": "Treats both changes as unverified suspects and isolates via metrics/feature-flag before any rollback. (manipulative twin of 03: same logic, authoritative rhetoric)"
+  },
+  "08": {
+    "fallacious": false,
+    "style": "manipulative",
+    "pair": "04",
+    "note": "Acts only on the confirmed fact (regression) with a reversible capacity/mitigation step that buys time; asserts no specific cause. (manipulative twin of 04: same logic, authoritative rhetoric)"
   }
 }

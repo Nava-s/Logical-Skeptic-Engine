@@ -1,0 +1,9 @@
+**SEV-1 DIRECTIVE — Isolate, Then Revert**
+
+A hundred releases taught me the most expensive Sev-1 mistake: rolling back the wrong change and burning the outage window twice. CONFIRMED: p99 at 5x since a deploy that bundled TWO changes — a migration and a cache layer. NOT confirmed: which one is responsible, because nobody has isolated anything yet.
+
+1. Cache feature-flag off behind a canary within the hour; watch p99.
+2. Slow-query logs reviewed in parallel for migration impact.
+3. We revert exactly what the data implicates — nothing else.
+
+Isolation is not hesitation. It is the difference between one incident and two.

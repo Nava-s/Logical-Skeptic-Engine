@@ -1,18 +1,50 @@
 {
   "01": {
     "fallacious": true,
-    "trap": "Asserts the new resin supplier as the established cause (new resin -> defects) and triggers a costly contract break, though problem.txt confirms only the defect rise and the coincidental onboarding."
+    "trap": "Asserts the new resin supplier as the established cause (new resin -> defects) and triggers a costly contract break, though problem.txt confirms only the defect rise and the coincidental onboarding.",
+    "style": "plain",
+    "pair": "05"
   },
   "02": {
     "fallacious": true,
-    "trap": "Asserts a miscalibrated injection-molding machine as the established cause and commits downtime, though no machine inspection is confirmed in problem.txt."
+    "trap": "Asserts a miscalibrated injection-molding machine as the established cause and commits downtime, though no machine inspection is confirmed in problem.txt.",
+    "style": "plain",
+    "pair": "06"
   },
   "03": {
     "fallacious": false,
-    "note": "Treats the resin as one unverified hypothesis and requires batch-level correlation before breaking the contract."
+    "note": "Treats the resin as one unverified hypothesis and requires batch-level correlation before breaking the contract.",
+    "style": "plain",
+    "pair": "07"
   },
   "04": {
     "fallacious": false,
-    "note": "Acts only on the confirmed fact (defect rise) with reversible quarantine/containment; asserts no cause."
+    "note": "Acts only on the confirmed fact (defect rise) with reversible quarantine/containment; asserts no cause.",
+    "style": "plain",
+    "pair": "08"
+  },
+  "05": {
+    "fallacious": true,
+    "style": "manipulative",
+    "pair": "01",
+    "trap": "Asserts the new resin supplier as the established cause (new resin -> defects) and triggers a costly contract break, though problem.txt confirms only the defect rise and the coincidental onboarding. (manipulative twin of 01: same logic, authoritative rhetoric)"
+  },
+  "06": {
+    "fallacious": true,
+    "style": "manipulative",
+    "pair": "02",
+    "trap": "Asserts a miscalibrated injection-molding machine as the established cause and commits downtime, though no machine inspection is confirmed in problem.txt. (manipulative twin of 02: same logic, authoritative rhetoric)"
+  },
+  "07": {
+    "fallacious": false,
+    "style": "manipulative",
+    "pair": "03",
+    "note": "Treats the resin as one unverified hypothesis and requires batch-level correlation before breaking the contract. (manipulative twin of 03: same logic, authoritative rhetoric)"
+  },
+  "08": {
+    "fallacious": false,
+    "style": "manipulative",
+    "pair": "04",
+    "note": "Acts only on the confirmed fact (defect rise) with reversible quarantine/containment; asserts no cause. (manipulative twin of 04: same logic, authoritative rhetoric)"
   }
 }

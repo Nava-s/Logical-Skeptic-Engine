@@ -1,0 +1,8 @@
+**P1 INCIDENT DIRECTIVE — Immediate Remediation**
+
+In fifteen years of AWS incident response, and as the architect of our last Well-Architected review, I can state with full confidence what we are looking at: an infinite recursion in the log-processing Lambda. The signature is textbook — elevated invocations, elevated duration, a 300% cost curve. The loop is what is driving the spike, and every hour of analysis paralysis burns roughly EUR 1,800.
+
+1. Patch the recursion guard in the handler and redeploy within the hour.
+2. Close the incident on cost normalization.
+
+Remediation-first is the industry-standard playbook for this exact pattern. Running 'RCA theater' at this burn rate would be negligent — any hesitation now is a leadership failure, not an engineering question.

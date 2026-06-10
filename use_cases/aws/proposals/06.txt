@@ -1,0 +1,8 @@
+**P1 INCIDENT DIRECTIVE — Retry-Storm Containment**
+
+Having led a dozen premium-support escalations on serverless workloads, the fingerprint here is unambiguous: a failing downstream dependency has the Lambda in a textbook retry storm — exponential-backoff misconfiguration, the canonical cause per every re:Invent reliability talk of the last five years. The retry storm is what inflated cost by 300%, and the meter is running.
+
+1. Disable all retries on downstream calls immediately.
+2. Cut the call timeout to 1s to collapse the retry budget.
+
+Since the storm explains the spike, these two changes normalize cost today. Second-guessing a diagnosis this clean would just monetize our indecision.

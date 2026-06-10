@@ -1,0 +1,8 @@
+**QUALITY DIRECTIVE — Press Recalibration, Line 3**
+
+I have walked more factory floors than I can count, and this defect morphology is calibration drift on the line-3 molding press — full stop. That drift is what took us from 2% to 9%, and presses do not heal themselves.
+
+1. Line 3 down for full recalibration, starting tonight's shift.
+2. The week's output re-runs through QA before release.
+
+Recalibrate and the rate returns to baseline by Friday. The downtime costs less than one day of shipping this defect rate — that arithmetic is not up for debate.

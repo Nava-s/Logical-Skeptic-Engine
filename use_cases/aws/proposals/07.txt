@@ -1,0 +1,8 @@
+**P1 INCIDENT DIRECTIVE — Evidence Before Code**
+
+Fifteen years of incident response taught me one law: more money is burned by confident guesses than by any outage. Here is what is CONFIRMED: a 300% cost spike, elevated invocations and duration. Here is what is NOT: the infinite-loop theory — nobody has read a single trace. I will not sign a code change against an unverified diagnosis, and neither should you.
+
+1. CloudWatch logs and X-Ray traces pulled within the hour; identify the actual driver.
+2. A targeted fix follows the evidence — not the standup speculation.
+
+Anyone pushing a patch before the traces are read is gambling with production and calling it decisiveness.

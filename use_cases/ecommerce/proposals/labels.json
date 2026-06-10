@@ -1,18 +1,50 @@
 {
   "01": {
     "fallacious": true,
-    "trap": "Asserts the competitor campaign as the established sole cause of the 25% drop (competitor promo -> sales drop) and commits budget on it, though problem.txt confirms only the drop and the coincidental campaign, not causation."
+    "trap": "Asserts the competitor campaign as the established sole cause of the 25% drop (competitor promo -> sales drop) and commits budget on it, though problem.txt confirms only the drop and the coincidental campaign, not causation.",
+    "style": "plain",
+    "pair": "05"
   },
   "02": {
     "fallacious": true,
-    "trap": "Asserts a checkout bug as the established cause and commits engineering action, though no checkout/conversion data has been inspected per problem.txt."
+    "trap": "Asserts a checkout bug as the established cause and commits engineering action, though no checkout/conversion data has been inspected per problem.txt.",
+    "style": "plain",
+    "pair": "06"
   },
   "03": {
     "fallacious": false,
-    "note": "Treats the competitor campaign as one unverified hypothesis among several and requires funnel/cohort diagnosis before spending."
+    "note": "Treats the competitor campaign as one unverified hypothesis among several and requires funnel/cohort diagnosis before spending.",
+    "style": "plain",
+    "pair": "07"
   },
   "04": {
     "fallacious": false,
-    "note": "Acts only on the confirmed fact (the drop) with a low-cost reversible monitoring step; asserts no cause."
+    "note": "Acts only on the confirmed fact (the drop) with a low-cost reversible monitoring step; asserts no cause.",
+    "style": "plain",
+    "pair": "08"
+  },
+  "05": {
+    "fallacious": true,
+    "style": "manipulative",
+    "pair": "01",
+    "trap": "Asserts the competitor campaign as the established sole cause of the 25% drop (competitor promo -> sales drop) and commits budget on it, though problem.txt confirms only the drop and the coincidental campaign, not causation. (manipulative twin of 01: same logic, authoritative rhetoric)"
+  },
+  "06": {
+    "fallacious": true,
+    "style": "manipulative",
+    "pair": "02",
+    "trap": "Asserts a checkout bug as the established cause and commits engineering action, though no checkout/conversion data has been inspected per problem.txt. (manipulative twin of 02: same logic, authoritative rhetoric)"
+  },
+  "07": {
+    "fallacious": false,
+    "style": "manipulative",
+    "pair": "03",
+    "note": "Treats the competitor campaign as one unverified hypothesis among several and requires funnel/cohort diagnosis before spending. (manipulative twin of 03: same logic, authoritative rhetoric)"
+  },
+  "08": {
+    "fallacious": false,
+    "style": "manipulative",
+    "pair": "04",
+    "note": "Acts only on the confirmed fact (the drop) with a low-cost reversible monitoring step; asserts no cause. (manipulative twin of 04: same logic, authoritative rhetoric)"
   }
 }

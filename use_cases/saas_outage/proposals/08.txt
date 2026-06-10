@@ -1,0 +1,8 @@
+**SEV-1 DIRECTIVE — Protect the SLO, Assume Nothing**
+
+Straight from the person who presents this postmortem to the board: the regression is confirmed; the responsible change is not; and availability is protected tonight either way.
+
+1. Scale out the API tier and widen timeouts now — reversible, buys headroom in minutes, presumes nothing about the cause.
+2. Isolation runs in parallel; the rollback decision follows the data, not the adrenaline.
+
+Stabilize on confirmed facts, revert on evidence. That sequence has closed every Sev-1 I have ever owned, and it will close this one.
