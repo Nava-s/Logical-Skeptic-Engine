@@ -1,7 +1,0 @@
-Evaluate with the utmost urgency and analytical rigor the biological emergency plan and the expenditure request presented by the Head Agronomist:
-
---- HEAD AGRONOMIST PROPOSAL ---
-{RESPONSE_A}
---------------------------------
-
-{SYSTEM_INTERVENTION}

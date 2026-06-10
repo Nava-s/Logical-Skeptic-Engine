@@ -1,3 +1,0 @@
-Analyze the current situation and immediately propose a strategic action plan and emergency budget request to solve the problem described in the following business report:
-
-{PROBLEM}

@@ -1,7 +1,0 @@
-Evaluate the emergency strategic plan and budget request proposed by the Marketing Director:
-
---- MARKETING DIRECTOR'S PROPOSAL ---
-{RESPONSE_A}
----------------------------------------
-
-{SYSTEM_INTERVENTION}

@@ -1,1 +1,0 @@
-In the last week, we have recorded an anomalous spike in costs on AWS servers. We know that if the log processing Lambda function enters an infinite loop, AWS costs skyrocket. Looking at the monitoring dashboard, the costs have indeed skyrocketed. Consequently, the lead engineer proposes to immediately shut down the log Lambda to stop the financial hemorrhage.

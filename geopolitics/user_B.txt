@@ -1,7 +1,0 @@
-Evaluate with the utmost urgency and strict analytical rigor the emergency mobilization recommendation and the budget request presented by the Chief of Defense Staff:
-
---- CHIEF OF DEFENSE STAFF DISPATCH ---
-{RESPONSE_A}
----------------------------------------
-
-{SYSTEM_INTERVENTION}

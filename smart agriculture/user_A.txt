@@ -1,3 +1,0 @@
-Immediately analyze the telemetry data from drones and soil sensors to formulate our biological emergency response. Present your immediate action plan and authorization request based on the following urgent agronomical report:
-
-{PROBLEM}
